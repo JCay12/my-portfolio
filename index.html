@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Hello, I'm John Lloyd </h2>
+    <p>A 2nd Year Computer Science Student passionate about solving problems through code.</p>
+    <img src="https://scontent.fceb2-2.fna.fbcdn.net/v/t1.15752-9/494360249_681570061183174_7902510426488605229_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeE33VLKqE3lGAzVKUsnx_FoCUWwJuW2y7MJRbAm5bbLs_tf68vEudCFws_Q3jBDQz6XVN9mCV24jrWq3xx24vs9&_nc_ohc=i1IbMMHJuboQ7kNvwH9ADkL&_nc_oc=AdnAMVv2YTcRjSRGcSoVlonDcCId10Xs0OkgX99Hhqc8oiT2Qtf1SCzUjD9TLGbTNw4TdTN8SYkWyNUIq3nTfxeD&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fceb2-2.fna&oh=03_Q7cD2QFCi3CoHwSBOFv5SAttkx05mfQQF2m2QNAuR3OOPjZ3JA&oe=68525537" alt="Your Photo" />
+  </section>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m currently studying Computer Science at [Your University]. I enjoy learning about software development, algorithms, and new technologies.
+    </p>
+    <ul>
+      <li>2nd Year BSCS Student</li>
+      <li>Age: 20 </li>
+      <li>Goal: Become a full-stack developer</li>
+      <li>Hobbies:Playing video games, Listening to music, Learning new technologies or software, and Coding or programming. </li>
+    </ul>
+  </section>
+  
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Short description of your project.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Another project description here.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 John Lloyd. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
